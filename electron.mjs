@@ -11,8 +11,8 @@ function createWindow() {
     },
   });
 
-  // Load the Vite development server URL
-  win.loadURL('http://localhost:5173'); // Ensure this matches your Vite server port
+  
+  win.loadURL('http://localhost:5173'); 
 }
 
 app.whenReady().then(createWindow);
